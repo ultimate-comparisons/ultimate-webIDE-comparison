@@ -1,111 +1,66 @@
 [
   {
-    "name": "Performance",
-    "tag": "Performance",
-    "description": "Performace of entry.",
-    "placeholder": "Select performace rating ...",
+    "name": "Languages",
+    "tag": "Languages",
+    "description": "Supported languages of the IDE",
+    "placeholder": "Select required language ...",
     "and_search": true,
     "values": [
       {
-        "name": "slow",
-        "description": "I am slow!"
+        "name": "Bash"
       },
       {
-        "name": "fast",
-        "description": "I am fast!"
+        "name": "Java"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "Ruby"
+      },
+      {
+        "name": "XML"
       }
     ]
   },
   {
-    "name": "Licenses",
-    "tag": "License",
-    "description": "Popular licenses for DOM manipulation libraries.",
-    "placeholder": "Select license ...",
+    "name": "Git Support",
+    "tag": "GitSupport",
+    "description": "Git support of the ID",
+    "placeholder": "Select required support ...",
     "and_search": false,
     "values": [
       {
-        "name": "MIT"
+        "name": "No"
       },
       {
-        "name": "Apache 2.0"
-      },
-      {
-        "name": "MPL 2.0"
+        "name": "Yes"
       }
     ]
   },
+
   {
-    "name": "Showcase",
-    "tag": "Showcase 2.0",
-    "description": "Popular showcases.",
-    "placeholder": "Select showcase ...",
+    "name": "Extensible",
+    "tag": "Extensible",
+    "description": "Extensibility of the IDE",
+    "placeholder": "Select required extensibility type",
     "and_search": false,
     "values": [
       {
-        "name": "red 1"
+        "name": "API"
       },
       {
-        "name": "red 2"
+        "name": "No"
       },
       {
-        "name": "green"
+        "name": "Other"
       },
       {
-        "name": "yellow"
+        "name": "Plugins"
       },
       {
-        "name": "dark blue"
-      },
-      {
-        "name": "grey"
-      },
-      {
-        "name": "light blue"
+        "name": "Yes"
       }
     ]
-  },
-  {
-    "name": "Uncolored",
-    "tag": "Uncolored",
-    "description": "Tags that were originally uncolored.",
-    "placeholder": "Select color ...",
-    "and_search": false,
-    "values": [
-      {
-        "name": "color 1"
-      },
-      {
-        "name": "color 2"
-      },
-      {
-        "name": "color 3"
-      }
-    ]
-  },
-  {
-    "name": "Active Development",
-    "tag": "Active Development",
-    "description": "Is the software in active development",
-    "placeholder": "Select activity state...",
-    "and_search": false,
-    "values": [
-      {
-        "name": "Active"
-      },
-      {
-        "name": "Not Sure"
-      },
-      {
-        "name": "Inactive"
-      }
-    ]
-  },
-  {
-    "name": "Number Column",
-    "tag": "NumberColumn",
-    "description": "Tags that were originally numbered.",
-    "placeholder": "Select number ranges ...",
-    "and_search": false,
-    "range_search": true
   }
 ]

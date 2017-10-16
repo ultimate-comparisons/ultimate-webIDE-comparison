@@ -11,14 +11,6 @@
         "valign": "top"
     },
     {
-        "name": "",
-        "tag": "Rating",
-        "display": true,
-        "type": {
-            "tag": "rating"
-        }
-    },
-    {
         "name": "Short Description",
         "tag": "descr",
         "style": "width: 25%",
@@ -28,22 +20,71 @@
         }
     },
     {
-        "name": "Performance",
-        "tag": "Performance",
-        "style": "width: 5%",
+        "name": "Languages",
+        "tag": "Languages",
         "display": true,
         "type": {
             "tag": "label",
             "values": [
                 {
-                    "name": "fast",
-                    "description": "Overall performance below 200ms.",
+                    "name": "Bash",
+                    "description":"",
+                    "color": "hsl(210, 100%, 70%)"
+                },
+                {
+                    "name": "Java",
+                    "description":"",
+                    "color": "hsl(225, 100%, 70%)"
+                },
+                {
+                    "name": "Python",
+                    "description":"",
+                    "color": "hsl(240, 100%, 70%)"
+                },
+                {
+                    "name": "Ruby",
+                    "description":"",
+                    "color": "hsl(255, 100%, 70%)"
+                },
+                {
+                    "name": "XML",
+                    "description":"",
+                    "color": "hsl(270, 100%, 70%)"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Extensibility/Customization",
+        "tag": "Extensible",
+        "display": true,
+        "type": {
+            "tag": "label",
+            "values": [
+                {
+                    "name": "API",
+                    "description": "IDE offers API for extensions and/or communication",
                     "class": "label-success"
                 },
                 {
-                    "name": "slow",
-                    "description": "Overall performance above 200ms.",
+                    "name": "No",
+                    "description": "Not (yet) extensible.",
                     "class": "label-danger"
+                },
+                {
+                    "name": "Other",
+                    "description": "IDE is extensible through other means",
+                    "class": "label-warning"
+                },
+                {
+                    "name": "Plugins",
+                    "description": "Offers plugin system to extend IDE",
+                    "class": "label-success"
+                },
+                {
+                    "name": "Yes",
+                    "description": "Is extensible through plugins/custom extensions",
+                    "class": "label-success"
                 }
             ]
         }
@@ -75,152 +116,21 @@
         }
     },
     {
-        "name": "Showcase",
-        "tag": "Showcase 2.0",
-        "style": "width: 5%",
+        "name": "Git Import/Support",
+        "tag": "GitSupport",
         "display": true,
         "type": {
             "tag": "label",
             "values": [
                 {
-                    "name": "dark blue",
-                    "description": "Show case for dark blue label",
-                    "class": "label-primary"
+                    "name": "No",
+                    "description": "No Support for Git repositories",
+                    "class": "label-danger"
                 },
                 {
-                    "name": "green",
-                    "description": "Show case for green label",
+                    "name": "Yes",
+                    "description": "Project/Source import and management of Git repositories",
                     "class": "label-success"
-                },
-                {
-                    "name": "grey",
-                    "description": "Show case for grey label",
-                    "class": "label-default"
-                },
-                {
-                    "name": "light blue",
-                    "description": "",
-                    "class": "label-info"
-                },
-                {
-                    "name": "red 1",
-                    "description": "Show case for red label 1",
-                    "class": "label-danger"
-                },
-                {
-                    "name": "red 2",
-                    "description": "Show case for red label 2",
-                    "class": "label-danger"
-                },
-                {
-                    "name": "yellow",
-                    "description": "Show case for yellow label",
-                    "class": "label-warning"
-                }
-            ]
-        }
-    },
-    {
-        "name": "Uncolored",
-        "tag": "Uncolored",
-        "display": true,
-        "type": {
-            "tag": "label",
-            "values": [
-                {
-                    "name": "color 1",
-                    "description": "Color 1",
-                    "weight": 1,
-                    "color": "hsl(180, 100%, 70%)"
-                },
-                {
-                    "name": "color 2",
-                    "description": "Color 2",
-                    "weight": 2,
-                    "color": "hsl(195, 100%, 70%)"
-                },
-                {
-                    "name": "color 3",
-                    "description": "Color 3",
-                    "weight": 3,
-                    "color": "hsl(210, 100%, 70%)"
-                }
-            ]
-        }
-    },
-    {
-        "name": "Active Development",
-        "tag": "Active Development",
-        "display": true,
-        "repo": true,
-        "type": {
-            "tag": "label",
-            "values": [
-                {
-                    "name": "Active",
-                    "description": "Active",
-                    "min-age": -1,
-                    "max-age": 1,
-                    "max-age-unit": "months",
-                    "class": "label-success"
-                },
-                {
-                    "name": "Inactive",
-                    "description": "Inactive",
-                    "min-age": 6,
-                    "min-age-unit": "months",
-                    "max-age": -1,
-                    "class": "label-danger"
-                },
-                {
-                    "name": "Not Sure",
-                    "description": "Not Sure",
-                    "min-age": 1,
-                    "min-age-unit": "months",
-                    "max-age": 6,
-                    "max-age-unit": "months",
-                    "class": "label-warning"
-                }
-            ]
-        }
-    },
-    {
-        "name": "Number Column",
-        "tag": "NumberColumn",
-        "display": true,
-        "order": "asc",
-        "type": {
-            "tag": "label",
-            "values": [
-                {
-                    "name": 100,
-                    "description": 100,
-                    "weight": 1,
-                    "color": "hsl(225, 100%, 70%)"
-                },
-                {
-                    "name": 199,
-                    "description": 199,
-                    "weight": 1.99,
-                    "color": "hsl(240, 100%, 70%)"
-                },
-                {
-                    "name": 200,
-                    "description": 200,
-                    "weight": 2,
-                    "color": "hsl(255, 100%, 70%)"
-                },
-                {
-                    "name": 250,
-                    "description": 250,
-                    "weight": 3,
-                    "color": "hsl(270, 100%, 70%)"
-                },
-                {
-                    "name": 300,
-                    "description": 300,
-                    "weight": 4,
-                    "color": "hsl(285, 100%, 70%)"
                 }
             ]
         }

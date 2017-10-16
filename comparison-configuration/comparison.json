@@ -1,19 +1,17 @@
 {
-  "title": "Ultimate-Comparison",
-  "subtitle": "Ultimate comparison framework",
+  "title": "Ultimate-WebIDE-Comparison",
+  "subtitle": "A comparison of popular web IDEs",
   "selecttitle": "Criteria",
-  "tabletitle": "Comparison of DOM manipulation libraries",
+  "tabletitle": "Comparison of web IDEs",
   "details": {
-    "header-label": "Performance",
+    "header-label": "Languages",
     "body-main-title": "Description",
     "body": "Description",
     "body-attachment-tags": [
-      "Performance",
-      "License",
-      "Showcase 2.0",
-      "Uncolored",
-      "Active Development"
+      "Languages",
+      "Extensible",
+      "GitSupport"
     ]
   },
-  "repository": "https://github.com/ultimate-comparisons/ultimate-comparison-BASE.git"
+  "repository": "https://github.com/nstadelmaier-dev/ultimate-webIDE-comparison.git"
 }

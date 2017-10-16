@@ -1,8 +1,8 @@
-# Ultimate THING Comparison
+# Ultimate Web-IDE Comparison
 
 [![Build Status](https://travis-ci.org/example.com/ultimate-THING-comparison.svg?branch=master)](https://travis-ci.org/example.com/ultimate-THING-comparison)
 
-This is an ultimate comparison of THINGs.
+This is an ultimate comparison of Web-IDEs
 
 ## Test it
 1. Install [node.js](https://nodejs.org/en/)
@@ -26,29 +26,34 @@ This is an ultimate comparison of THINGs.
 9. `npm start` (starts the web page)
 10. [Setup automatic deployment of `www` directory using Travis CI](docs/Travis_Build_Deploy.md)
 
-## Ultimate-THING-Comparison Element Specification
+## Ultimate-Web-IDE-Comparison Element Specification
 
 The code below shows a sample element.
 
-    # THING Element - http://example.com
-    Element short description ...
-
+    # IDE name - http://link-to-ide.com
+    description for the IDE
+    
+    ## Languages
+    - Java
+    - Bash
+    - XML
+    - Python
+    - Ruby
+    
+    ## Extensible
+    - Yes
+    - API
+    - Plugins
+    - No
+    - Other
+    
     ## Description
-    Element long __markdown__ description ...
+    Long description for details dialog.
     
-    ## Property 1
-    - label 1
-    - label 2
-    
-    ## Property 2
-    - label 3
-    - label 4
-    - label 5
-    
-    ## Rating
-    - [1] Bad THING
-    - [3] It is ok
-    - [5] Good THING
+    ## GitSupport
+    - Yes
+    - No
+
 
 ## License
 

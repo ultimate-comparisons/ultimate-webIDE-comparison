@@ -15,7 +15,6 @@ after_success:
 - git reset --hard
 - echo $TRAVIS_BRANCH
 - echo $TRAVIS_PULL_REQUEST
-- ./deploy.sh
 before_install:
 - wget https://github.com/jgm/pandoc/releases/download/1.17.2/pandoc-1.17.2-1-amd64.deb
 - sudo dpkg -i pandoc-1.17.2-1-amd64.deb
@@ -25,5 +24,11 @@ before_install:
 - pandoc -v
 - npm -version
 - npm install
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
 sudo: required
 dist: trusty

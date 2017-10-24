@@ -28,6 +28,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
+  local_dir: www
   on:
     branch: master
 sudo: required

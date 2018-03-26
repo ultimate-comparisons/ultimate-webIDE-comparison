@@ -1,0 +1,29 @@
+.label-black {
+    color: white;
+    background-color: black;
+}
+
+.label-lightblue {
+  color: white;
+  background-color: hsl(210, 100%, 70%);
+}
+
+.label-darkblue {
+  color: white;
+  background-color: hsl(225, 100%, 70%);
+}
+
+.label-darkblue2 {
+  color: white;
+  background-color: hsl(240, 100%, 70%);
+}
+
+.label-violet {
+  color: white;
+  background-color: hsl(255, 100%, 70%);
+}
+
+.label-violet2 {
+  color: white;
+  background-color: hsl(270, 100%, 70%);
+}

@@ -1,0 +1,95 @@
+title: Ultimate-WebIDE-Comparison
+subtitle: A comparison of popular web IDEs
+selectTitle: Criteria
+tableTitle: Comparison of web IDEs
+repository: 'https://github.com/nstadelmaier-dev/ultimate-webIDE-comparison.git'
+details:
+  header:
+    nameRef: id
+    labelRef: Languages
+    urlRef: inline
+  body:
+    title: Description
+    bodyRef: Description
+citation:
+  csl: acm-siggraph.csl
+  bib: literature.bib
+criteria:
+  - id:
+      name: Name
+      search: false
+      table: true
+      detail: false
+  - description:
+      name: Short description
+      search: false
+      detail: false
+      type: markdown
+  - Description:
+      search: false
+      detail: true
+      type: markdown
+      table: false
+  - Languages:
+      table: true
+      search: true
+      description: Supported languages of the IDE
+      placeholder: Select required language ...
+      andSearch: true
+      type: label
+      values:
+        Bash:
+          description: null
+          class: label-lightblue
+        Java:
+          description: null
+          class: label-darkblue
+        Python:
+          description: null
+          class: label-darkblue2
+        Ruby:
+          description: null
+          class: label-violet
+        XML:
+          description: null
+          class: label-violet2
+  - Extensible:
+      name: Extensibility/Customization
+      table: true
+      search: true
+      description: Extensibility of the IDE
+      placeholder: Select required extensibility type
+      andSearch: false
+      values:
+        API:
+          description: IDE offers API for extensions and/or communication
+          class: label-success
+        'No':
+          description: Not (yet) extensible.
+          class: label-danger
+        Other:
+          description: IDE is extensible through other means
+          class: label-warning
+        Plugins:
+          description: Offers plugin system to extend IDE
+          class: label-success
+        'Yes':
+          description: Is extensible through plugins/custom extensions
+          class: label-success
+  - GitSupport:
+      name: Git Import/Support
+      table: true
+      search: true
+      description: Git support of the ID
+      placeholder: Select required support ...
+      andSearch: false
+      values:
+        'No':
+          description: No Support for Git repositories
+          class: label-danger
+        'Yes':
+          description: Project/Source import and management of Git repositories
+          class: label-success
+autoCriteria: {}
+autoColor: {}
+autoCitation: {}

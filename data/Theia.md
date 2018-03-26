@@ -1,4 +1,4 @@
-# Theia (0.0.1 alpha) - http://codiad.com
+# Theia (0.0.1 alpha) - https://theia-ide.org
 Web-based IDE framework
 
 ## Languages

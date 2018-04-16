@@ -16,31 +16,30 @@ The code below shows a sample element.
 
     # IDE name - http://link-to-ide.com
     description for the IDE
-    
+
     ## Languages
     - Java
     - Bash
     - XML
     - Python
     - Ruby
-    
+
     ## Extensible
     - Yes
     - API
     - Plugins
     - No
     - Other
-    
+
     ## Description
     Long description for details dialog.
-    
+
     ## GitSupport
     - Yes
     - No
 
 ## License
 
-The code is licensed under [MIT], the content (located at `data`) under [CC-BY-SA-4.0].
+The content is licensed under [CC0-1.0].
 
-  [MIT]: https://opensource.org/licenses/MIT
-  [CC-BY-SA-4.0]: http://creativecommons.org/licenses/by-sa/4.0/
+  [CC0-1.0]: https://creativecommons.org/publicdomain/zero/1.0/
